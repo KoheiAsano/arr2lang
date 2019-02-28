@@ -1,7 +1,8 @@
-#include <bits/stdc++.h>
+#include <string>
+#include <vector>
+#include <iostream>
 using namespace std;
 
-stack<int> S;
 int a, b, x;
 string s;
 int nest = 0;
