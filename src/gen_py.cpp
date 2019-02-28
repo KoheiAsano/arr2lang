@@ -11,8 +11,6 @@ void indentation(int nest){
 }
 
 
-
-
 int main(){
 	while(cin >> s) {
     //nested syntaces
@@ -53,7 +51,7 @@ int main(){
         if(i)cout << ",";
         cout << args[i];
       }
-      cout << ")" << endl;
+      cout << "):" << endl;
       nest++;
     }
     else if(s == "end"){//end of control syntax
