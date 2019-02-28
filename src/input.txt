@@ -1,0 +1,12 @@
+as A 1
+as B 2
+def max2 2 A B
+if A>B
+call print 1 A
+end
+if A<=B
+call print 1 B
+end
+end
+call max2 2 A B
+EOF
